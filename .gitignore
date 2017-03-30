@@ -1,0 +1,31 @@
+*.jar
+*.war
+.classpath
+.project
+.settings
+bin/
+*.log
+*.tlog
+classes/
+resource/jaxb/
+
+### Ignore Jetbrains IDEA files
+# all *.iml files
+*.iml
+*s101*
+*.ipr
+*.iws
+# all folders with .idea
+.idea
+infinitest*
+/out
+
+### Ignore Netbeans files
+.nb-gradle
+nb-configuration.xml
+nbactions.xml
+
+### Ignore Gradle files
+.gradle
+gradle/
+gradlew

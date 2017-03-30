@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="address" type="addressType"/>
+  <xs:complexType name="addressType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="houseNumber" minOccurs="1"/>
+      <xs:element type="xs:string" name="streetName"/>
+      <xs:element type="xs:string" name="streetNumber"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="personName"/>
+    <xs:attribute type="xs:string" name="personPhoneNumber"/>
+  </xs:complexType>
+</xs:schema>
